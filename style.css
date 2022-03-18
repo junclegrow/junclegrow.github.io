@@ -1,7 +1,36 @@
-table {
-	border-collapse: collapse;
+.unit {
+    border: 1px solid #ddd;
+    width: 32rem;
+    height: 17rem;
+    margin: auto;
+    padding: 0rem 2rem;
 }
-td {
-	border: solid 1px;
-	padding: 0.5em;
+
+.unit p {
+    width: 18rem;
+}
+
+.unit img {
+    width: 13rem;
+    position: relative;
+    left: 19rem;
+    bottom: 8rem;
+}
+
+
+/* smartphone */
+
+@media screen and (max-width: 480px) {
+    a:hover {
+        color: #75d3ff;
+    }
+}
+
+
+/* pc */
+
+@media screen and (min-width: 481px) {
+    a:hover {
+        color: #ffaf79;
+    }
 }
